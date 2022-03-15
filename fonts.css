@@ -1,0 +1,72 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?l33nfj');/*Если разные папки то поставить перед ../fonts/*/
+  src:  url('fonts/icomoon.eot?l33nfj#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?l33nfj') format('truetype'),
+    url('fonts/icomoon.woff?l33nfj') format('woff'),
+    url('fonts/icomoon.svg?l33nfj#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-menu:before {
+  content: "\e90b";
+}
+.icon-more_vert:before {
+  content: "\e90a";
+}
+.icon-basket:before {
+  content: "\e900";
+}
+.icon-zoomin:before {
+  content: "\e901";
+}
+.icon-zoomout:before {
+  content: "\e902";
+}
+.icon-grid:before {
+  content: "\e903";
+}
+.icon-heart:before {
+  content: "\e905";
+}
+.icon-info:before {
+  content: "\e906";
+}
+.icon-bike:before {
+  content: "\e907";
+}
+.icon-tags:before {
+  content: "\e908";
+}
+.icon-adjustments:before {
+  content: "\e01d";
+}
+.icon-profile-male:before {
+  content: "\e040";
+}
+.icon-profile-female:before {
+  content: "\e041";
+}
+.icon-map-pin:before {
+  content: "\e047";
+}
+.icon-heart1:before {
+  content: "\e04a";
+}
